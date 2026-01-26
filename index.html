@@ -7,28 +7,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="nav-bar">
-        <p>About</p>
-        <p>Work</p>
-        <p>Contract</p>
+        <div class="nav-bar-content">
+        <button onclick="scrollInto('whoami')">About</button>
+        <button onclick="scrollInto('projects')">Work</button>
+        <button onclick="scrollInto('contact')">Contact</button>
+        </div>
     </div>
-    <div class="whoami">
+    <div class="whoami" id="whoami">
         <h1>Hi There, I'm Prem!</h1>
-        <h2>I'm a Developer</h2>
+        <h2>I'm a <span id="role">Developer</span></h2>
     </div>
-    <div class="projects">
-        <h2>Work</h2>
-            <p>mail</p>
-        <p>github</p>
-        <p>linkedin</p>
+    <div class="projects" id="projects">
+        <h1 class="work-title">My Works</h1>
+        <div class="work-container">
+            <div class="project-1">
+                <p>text</p>
+            </div>
+            <div class="project-1">
+                <p>text</p>
+            </div>
+            <div class="project-1">
+                <p>text</p>
+            </div>
+        </div>
+            
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <h2>contact</h2>
         <p>mail</p>
         <p>github</p>
         <p>linkedin</p>
     </div>
 </body>
+<script src="script.js"></script>
+
 </html>
