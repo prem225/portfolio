@@ -101,13 +101,15 @@ button{
 .work-title{
     display: flex;
 justify-content: center;
+
 }
 
 .projects{
-    /* display: flex; */
-        /* align-items: center; */
-justify-content: space-around;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+        font-size: 2rem;
+
 
 }
 
@@ -116,12 +118,13 @@ justify-content: space-around;
     display: flex;
     align-items: center;
     width: 25%;
-    height: 25%;
-    
-}
+   padding-bottom: 5%; 
+  }
 
 .work-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+        justify-content: space-around;
+
 }
