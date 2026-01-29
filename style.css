@@ -128,3 +128,15 @@ justify-content: center;
         justify-content: space-around;
 
 }
+
+.link-style{
+  font: inherit;
+  border: none;
+  color: inherit;
+  text-decoration: none;
+  padding-bottom: 2rem;
+}
+
+.contact-title{
+   font-size: 3rem;
+}
